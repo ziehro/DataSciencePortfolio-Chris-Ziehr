@@ -30,16 +30,15 @@ Each project directory contains specific instructions on how to run the analysis
 
 ## About Me
 
-I am a data science enthusiast with a passion for uncovering insights from complex datasets and translating them into actionable strategies. My background includes [your background], and I hold a degree in [your degree] from [your university]. I am always eager to learn new techniques and tools in the field of data science.
+I am a data science enthusiast with a passion for uncovering insights from complex datasets and translating them into actionable strategies. My background includes various disciplines, and I hold a Data Analyst Certificate from Google. I am always eager to learn new techniques and tools in the field of data science.
 
-Feel free to connect with me on [LinkedIn](your-linkedin-url) and check out my [Blog](your-blog-url) for more insights and tutorials.
+Feel free to connect with me on the web at driftwest.xyz and check out my blog for more insights and tutorials.
 
 ## Contact
 
 If you have any questions or wish to discuss any of these projects further, please don't hesitate to contact me:
 
-- Email: [your email]
-- LinkedIn: [your LinkedIn profile]
-- Twitter: [your Twitter account]
+- Email: ziehro@gmail.com
+- Web: driftwest.xyz
 
 Thank you for visiting my portfolio!
