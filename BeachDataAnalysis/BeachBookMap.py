@@ -33,7 +33,7 @@ m.get_root().html.add_child(folium.Element(title_html))
 # Iterate through each field to create heatmap layers
 for field in fields:
     # Calculate the threshold as 40% of the maximum value for the field
-    threshold = 0.4 * max_value_dict[field]
+    threshold = 0.5* max_value_dict[field]
     
     # Generate heatmap data, filtering based on the field value being >= threshold
     heat_data = [[row['Latitude'], row['Longitude'], 1]  # The '1' is a placeholder for intensity
