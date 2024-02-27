@@ -1,6 +1,13 @@
 # Chris Ziehr's Data Science Portfolio
 
-Welcome to my Data Science portfolio! This repository showcases a selection of projects I've worked on, demonstrating my skills in data analysis, visualization, and interpretation. Each project is contained within its own directory and includes a detailed README with an overview of the project, methodologies employed, key findings, and visualizations.
+Welcome to my Data Science portfolio! This repository showcases a selection of projects I've worked on, demonstrating my skills in data analysis, visualization, and interpretation. Each project is contained within its own directory and includes a detailed README with an overview of the project, methodologies employed, key findings, and visualizations.  
+
+# Skills
+
+Fluency in many applications, languages and libraries including
+-Java
+-Python
+-
 
 ## Projects Overview
 
@@ -16,7 +23,7 @@ Welcome to my Data Science portfolio! This repository showcases a selection of p
 
 ### 3. EMF Data Insights
 - **Objective**: Explore EMF readings from different plant sensors buried in soil, analyzing environmental impacts.
-- **Technologies Used**: Python, SciPy, Plotly.
+- **Technologies Used**: Python, SciPy, Plotly, RaspberryPi, HTML, 
 - [View Project](./EMFDataInsights)
 
 ### 4. Hemp Growth Analysis
