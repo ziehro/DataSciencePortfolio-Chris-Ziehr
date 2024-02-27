@@ -1,7 +1,23 @@
-## Detailed Analysis
+# Hemp Analysis Project
 
-For a comprehensive breakdown of the hemp analysis, including methodology, data visualizations, and in-depth conclusions, please visit our RPubs page:
+## Overview
+This project focuses on the analysis of hemp data. The objective is to understand various metrics and characteristics associated with hemp production and quality.
 
-[Hemp Analysis on RPubs](http://rpubs.com/ziehro/1007356)
+## Data Description
+The data was gathered and preprocessed in various spreadsheets. It includes metrics such as THC content, CBD content, moisture levels, and other relevant variables affecting hemp quality.
 
-This page provides a step-by-step account of our analytical process, complete with data exploration, statistical testing, and interpretation of results.
+## Analysis
+For a detailed breakdown of the analysis, methodologies used, and findings, please follow the link to our comprehensive report hosted on RPubs:
+
+[Detailed Hemp Analysis](https://rpubs.com/ziehro/1007356)
+
+Please refer to this link for more data, visualizations, and in-depth analysis.
+
+## Usage
+This repository contains only the README file. All data and analysis procedures are documented in the linked RPubs page.
+
+## Contact
+For any inquiries or further discussion, feel free to contact the project team.
+
+## License
+This project is released under the MIT License.
