@@ -6,7 +6,7 @@ Welcome to my Data Science portfolio! This repository showcases a selection of p
 
 ### 1. Beach Data Analysis
 - **Objective**: Analyze various metrics of 250 North American beaches, including composition and environmental factors.
-- **Technologies Used**: Python, Pandas, Folium.
+- **Technologies Used**: Python, Pandas, Folium, Java, CHAT-GPT.
 - [View Project](./BeachDataAnalysis)
 
 ### 2. Lottery Results Analysis
