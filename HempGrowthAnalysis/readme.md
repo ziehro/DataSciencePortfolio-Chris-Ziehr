@@ -4,7 +4,7 @@
 This project focuses on the analysis of hemp data. The objective is to understand various metrics and characteristics associated with hemp production and quality.
 
 ## Data Description
-The data was gathered and preprocessed in various spreadsheets. It includes metrics such as THC content, CBD content, moisture levels, and other relevant variables affecting hemp quality.
+The data was gathered and preprocessed in various spreadsheets. It includes metrics such as height, seed yield, moisture levels, and other relevant variables affecting hemp quality.
 
 ## Analysis
 For a detailed breakdown of the analysis, methodologies used, and findings, please follow the link to our comprehensive report hosted on RPubs:
