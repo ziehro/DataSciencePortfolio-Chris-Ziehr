@@ -1,0 +1,119 @@
+public class ConvertDatabaseToCSVActivity extends AppCompatActivity {
+
+    ExecutorService executorService = Executors.newSingleThreadExecutor();
+    Handler handler = new Handler(Looper.getMainLooper());
+    private static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 1;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        // Check if the Write External Storage permission has been granted
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            // If the permission has not been granted, then request it
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE);
+        }
+
+
+
+        executorService.execute(() -> {
+            FirebaseFirestore db = FirebaseFirestore.getInstance();
+            db.collection("locations").get()
+                    .addOnCompleteListener(task -> {
+                        if (task.isSuccessful()) {
+                            File file = new File(getExternalFilesDir(null), "firestore_export.csv");
+                            try {
+                                FileWriter writer = new FileWriter(file);
+
+                                writer.append("ID,Latitude,Longitude,Geohash,Description,Name,Timestamp,Image,Thumbnail,Anemones,Barnacles,Boulders,Bugs,Clams,Firewood,Garbage,Islands,Kindling,Length,Limpets,Logs,Midden,Mussels,Oysters,Pebbles,Rocks,Sand,Snails,Stone,Trees,Width,Windy\n");
+                                writer.append("0,0,0,0,0,0,0,0,0,7,7,5,7,7,5,9,5,5,0,7,5,5,7,7,5,5,5,7,5,5,0,2\n");
+
+
+                                for (QueryDocumentSnapshot document : task.getResult()) {
+                                    Map<String, Object> data = document.getData();
+                                    Object imageObj = data.get("imageUrls"); // Get the imageUrls object
+                                    String image = "no image"; // Default image string
+
+                                    // Pre-process 'Timestamp' and 'Image' values
+                                    String timestamp = String.valueOf(data.get("timestamp"));
+                                    if (timestamp.startsWith("Timestamp")) {
+                                        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+                                        String correctedTimestamp = sdf.format(new Date());
+                                        timestamp = correctedTimestamp;
+                                    }
+                                    if (imageObj instanceof List) {
+                                        List<?> imageUrls = (List<?>) imageObj;
+                                        if (!imageUrls.isEmpty()) {
+                                            Object firstImageUrl = imageUrls.get(0);
+                                            image = firstImageUrl != null ? firstImageUrl.toString() : "no image";
+                                        }
+                                    }
+                                    writer.append(String.valueOf(document.getId()));
+                                    writer.append(",");
+                                    writer.append(String.valueOf(document.get("latitude")));
+                                    writer.append(",");
+                                    writer.append(String.valueOf(document.get("longitude")));
+                             ...
+                                }
+
+                                writer.flush();
+                                writer.close();
+                                Log.d("File Log", "Data written to file");
+                                replaceNullsInFile(file);
+
+
+
+                                handler.post(() -> {
+                                    // Create email intent
+                                    Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                                    emailIntent.setType("text/csv"); // or "application/octet-stream"
+                                    String to[] = {"ziehro@gmail.com"}; // add recipient email
+                                    emailIntent.putExtra(Intent.EXTRA_EMAIL, to);
+                                    Uri fileUri = FileProvider.getUriForFile(ConvertDatabaseToCSVActivity.this, "com.ziehro.beachbook.fileprovider", file);
+                                    List<ResolveInfo> resInfoList = ConvertDatabaseToCSVActivity.this.getPackageManager().queryIntentActivities(emailIntent, PackageManager.MATCH_DEFAULT_ONLY);
+                                    for (ResolveInfo resolveInfo : resInfoList) {
+                                        String packageName = resolveInfo.activityInfo.packageName;
+                                        // Grant each activity permission to use the FileProvider
+                                        ConvertDatabaseToCSVActivity.this.grantUriPermission(packageName, fileUri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                                    }
+
+                                    emailIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                                    emailIntent.putExtra(Intent.EXTRA_STREAM, fileUri);
+
+
+                                    emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Firestore Data Export");
+                                    startActivity(Intent.createChooser(emailIntent, "Send Email"));
+                                });
+
+                            } catch (IOException e) {
+                                Log.e("File Log", "Error in file write", e);
+
+                                e.printStackTrace();
+                                handler.post(() -> Toast.makeText(this, "Export failed", Toast.LENGTH_SHORT).show());
+                            }
+                        } else {
+                            handler.post(() -> Toast.makeText(this, "Export failed", Toast.LENGTH_SHORT).show());
+                        }
+                    });
+        });
+
+
+    }
+    private void replaceNullsInFile(File file) throws IOException {
+        // Read the content of the file
+        StringBuilder contentBuilder = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String currentLine;
+            while ((currentLine = reader.readLine()) != null) {
+                // Replace "null" with "1" in the current line
+                String modifiedLine = currentLine.replace(",null,", ",1,") // Handle middle fields
+                        .replace("null,", "1,") // Handle beginning of line
+                        .replace(",null", ",1"); // Handle end of line
+                contentBuilder.append(modifiedLine).append("\n");
+            }
+        }
+
+        // Write the modified content back to the file
+        try (FileWriter writer = new FileWriter(file, false)) { // false to overwrite
+            writer.write(contentBuilder.toString());
