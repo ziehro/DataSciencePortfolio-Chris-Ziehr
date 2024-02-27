@@ -2,13 +2,6 @@
 
 Welcome to my Data Science portfolio! This repository showcases a selection of projects I've worked on, demonstrating my skills in data analysis, visualization, and interpretation. Each project is contained within its own directory and includes a detailed README with an overview of the project, methodologies employed, key findings, and visualizations.  
 
-# Skills
-
-Fluency in many applications, languages and libraries including
--Java
--Python
--
-
 ## Projects Overview
 
 ### 1. Beach Data Analysis
@@ -23,7 +16,7 @@ Fluency in many applications, languages and libraries including
 
 ### 3. EMF Data Insights
 - **Objective**: Explore EMF readings from different plant sensors buried in soil, analyzing environmental impacts.
-- **Technologies Used**: Python, SciPy, Plotly, RaspberryPi, HTML, 
+- **Technologies Used**: Python, SciPy, Plotly, RaspberryPi, HTML, Arduino
 - [View Project](./EMFDataInsights)
 
 ### 4. Hemp Growth Analysis
@@ -37,7 +30,7 @@ Each project directory contains specific instructions on how to run the analysis
 
 ## About Me
 
-I am a data science enthusiast with a passion for uncovering insights from complex datasets and translating them into actionable strategies. My background includes various disciplines, and I hold a Data Analyst Certificate from Google. I am always eager to learn new techniques and tools in the field of data science.
+I am a data science enthusiast with a passion for uncovering insights from complex datasets and translating them into actionable strategies. My background includes various disciplines, and I hold a Data Analyst Certificate from Google. I am also currently completing my Machine Learning course through Stanford Online.  I am always eager to learn new techniques and tools in the field of data science.
 
 Feel free to connect with me on the web at driftwest.xyz and check out my blog for more insights and tutorials.
 
