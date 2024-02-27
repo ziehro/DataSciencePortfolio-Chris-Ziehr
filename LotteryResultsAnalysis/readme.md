@@ -1,52 +1,33 @@
+# Lottery Results Analysis
 
-# Lottery Results Analysis Project
+This project analyzes the relationship between the moon phases and lottery win percentages. Utilizing data on lottery results and corresponding moon ages, we investigate patterns and correlations to understand how the lunar cycle might influence lottery outcomes.
 
-## Project Overview
+## Files
 
-This project explores patterns and correlations in lottery results over three years, examining factors such as moon phases, weather conditions, and seasonal variations. The aim is to uncover any unexpected trends that could influence the outcomes of lottery draws and provide insights into whether certain external factors have statistical significance.
+- `raw.csv`: This file contains the raw data used for the analysis. It includes dates, moon ages, money spent, money won, and calculated win percentages for each recorded day.
 
-## Data Source
+- `Interactive_Moon_Phase_Analysis.ipynb`: Jupyter notebook containing all the code and visualizations for the analysis. The notebook includes data preprocessing, feature engineering, and an interactive graph that displays the moon phase as a continuous sine wave, with overlaying data points representing the win percentages for corresponding days.
 
-The dataset includes lottery draw results, dates, and associated moon phases and weather conditions at the time of each draw. Data was aggregated from [source name], with additional meteorological information obtained from [weather data source] and lunar cycle information from [moon phase source].
+## How to Use
 
-*Note: Mention any data usage restrictions or necessary acknowledgements here.*
+1. Clone this repository or download the files to your local machine.
+2. Ensure you have Jupyter Notebook or JupyterLab installed to run the `.ipynb` file. You can install it via Anaconda or with pip using the command `pip install notebook`.
+3. Open `Interactive_Moon_Phase_Analysis.ipynb` in Jupyter Notebook or JupyterLab.
+4. Run all the cells in the notebook to reproduce the analysis and visualizations. The notebook contains comments and markdown cells that guide you through the process.
 
-## Technologies Used
+## Interactive Graph Features
+
+The main feature of this analysis is the interactive graph which displays:
+- A continuous sine wave representing the moon phase over time.
+- Data points overlaying the sine wave to represent win percentages for respective days.
+- The ability to scroll horizontally through the dates to view different segments of time within the 30-day window.
+- Colors and sizes of the data points vary based on the win percentage, providing a quick visual interpretation of the data.
+
+## Requirements
 
 - Python 3.x
-- Libraries: Pandas, NumPy, SciPy, Matplotlib
-
-## Key Findings
-
-- Summarize the main outcomes of your analysis. For instance, "The study indicated no significant correlation between moon phases and lottery outcomes, while some minor correlations were observed between extreme weather conditions and certain draw results."
-- Discuss any patterns, anomalies, or insights discovered during the analysis, providing a critical evaluation of the results.
-
-## How to Run the Project
-
-Outline the steps needed to reproduce your analysis:
-
-1. Clone the repository and navigate to the `LotteryResultsAnalysis` folder.
-2. Install the required Python libraries: `pip install -r requirements.txt`.
-3. Execute the analysis scripts or Jupyter notebooks: `jupyter notebook lottery_analysis.ipynb` or `python lottery_analysis.py`.
-
-## Visualizations
-
-Describe the visual elements created as part of your analysis:
-
-- Line graphs showing lottery result trends over time against lunar phases.
-- Scatter plots examining the relationship between weather conditions and lottery outcomes.
-- Statistical charts that illustrate findings and support your conclusions.
-
-*Link to any interactive visualizations or include images directly in the README if relevant.*
-
-## Challenges and Learnings
-
-Reflect on any obstacles encountered during the analysis and how they were overcome. Share any new techniques or knowledge gained through this project.
+- Libraries: pandas, numpy, matplotlib, matplotlib.widgets
 
 ## Acknowledgements
 
-Extend thanks to individuals, organizations, or data providers who contributed to the project.
-
----
-
-Make sure to replace all placeholders and generic sections with the specific details of your Lottery Results Analysis project. Include clear and concise instructions to ensure that anyone who wishes to replicate your analysis can do so effortlessly. After personalizing the README, commit the changes to your GitHub repository along with your project files, ensuring that your project is well-documented and accessible to others.
+This analysis was inspired by the hypothesis that lunar cycles may impact human behavior and, by extension, lottery outcomes. The methodology and visualizations were developed to provide a clear and interactive way to explore this potential relationship.
