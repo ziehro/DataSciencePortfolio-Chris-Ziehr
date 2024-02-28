@@ -28,5 +28,5 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 - **Event Marking**: Mark and annotate specific events directly through the website interface.
   ![Event Marking](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/event_marking.png)
 - **Environmental Data Display**: Options to display temperature and humidity data alongside EMF sensor readings for comprehensive environmental analysis.
-  ![Environmental Data Display](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/website_image.png)
+  ![Environmental Data Display](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/tree/master/images/website_image.png)
 
