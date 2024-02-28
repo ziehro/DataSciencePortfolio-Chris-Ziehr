@@ -9,11 +9,11 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 ### Key Features:
 
 - **Real-time Data Visualization**: Visualize sensor readings in real-time on an LED light strip and through Matplotlib graphs.
-  ![Real-time Data Visualization](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/images/realtime.png)
+  ![Real-time Data Visualization](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/realtime.png)
 - **Event Recording**: Specify event duration, title, and description for targeted data collection and analysis.
-  ![Event Recording](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/images/event_recording.png)
+  ![Event Recording](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/event_recording.png)
 - **Cloud Integration**: Automatic data uploads to Firestore for web visualization.
-  ![Cloud Integration](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/images/website_image.png)
+  ![Cloud Integration](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/website_image.png)
 
 ### Resources and Links:
 
