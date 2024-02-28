@@ -9,7 +9,7 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 ### Key Features:
 
 - **Real-time Data Visualization**: Visualize sensor readings in real-time on an LED light strip and through Matplotlib graphs.
-  ![Real-time Data Visualization](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images/EMF readings closeup.png)
+  ![Real-time Data Visualization](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images/EMF_Readings_Closeup.png)
 - **Event Recording**: Specify event duration, title, and description for targeted data collection and analysis.
   ![Event Recording](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images/event_recording.png)
 - **Cloud Integration**: Automatic data uploads to Firestore for web visualization.
@@ -28,5 +28,5 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 - **Event Marking**: Mark and annotate specific events directly through the website interface.
   ![Event Marking](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/event_marking.png)
 - **Environmental Data Display**: Options to display temperature and humidity data alongside EMF sensor readings for comprehensive environmental analysis.
-  ![Environmental Data Display](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/realtime.png)
+  ![Environmental Data Display](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/website_image.png)
 
