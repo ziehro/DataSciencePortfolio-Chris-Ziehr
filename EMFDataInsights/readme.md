@@ -18,7 +18,7 @@ The setup involves a Hall effect sensor connected through an Analog-to-Digital C
 
 ## Installation
 
-Instructions for setting up the hardware and software environment are detailed in the [Installation Guide](/data_collection/EMFDataInsights_Setup_Guide.ipynb). This includes setting up the Raspberry Pi, connecting the sensor and light strip, and configuring Firebase.
+Instructions for setting up the hardware and software environment are detailed in the [Installation Guide](/EMFDataInsights/data_collection/EMFDataInsights_Setup_Guide.ipynb). This includes setting up the Raspberry Pi, connecting the sensor and light strip, and configuring Firebase.
 
 ## Usage
 
