@@ -50,7 +50,7 @@ A discussion of the project's outcomes, challenges faced, and how they were addr
 
 ## Licensing
 
-This project is licensed under the XXX License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
