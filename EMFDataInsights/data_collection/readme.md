@@ -13,7 +13,7 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 - **Event Recording**: Specify event duration, title, and description for targeted data collection and analysis.
   ![Event Recording](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images/event_recording.png)
 - **Cloud Integration**: Automatic data uploads to Firestore for web visualization.
-  ![Cloud Integration](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/images/website_image.png)
+  ![Cloud Integration](https://raw.githubusercontent.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images/website_image.png)
 
 ### Resources and Links:
 
