@@ -9,24 +9,24 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
 ### Key Features:
 
 - **Real-time Data Visualization**: Visualize sensor readings in real-time on an LED light strip and through Matplotlib graphs.
-  ![Real-time Data Visualization](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/data_collection/images/realtime.png)
+  ![Real-time Data Visualization](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/data_collection/images/realtime.png)
 - **Event Recording**: Specify event duration, title, and description for targeted data collection and analysis.
-  ![Event Recording](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/data_collection/event_recording.png)
+  ![Event Recording](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/data_collection/event_recording.png)
 - **Cloud Integration**: Automatic data uploads to Firestore for web visualization.
-  ![Cloud Integration](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/website_image.png)
+  ![Cloud Integration](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/website_image.png)
 
 ### Resources and Links:
 
 - **Code**:
-  - [emfSendSignal.py](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfSendSignal.py)
-  - [emfReceiveSignal.py](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfReceiveSignal.py)
+  - [emfSendSignal.py](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfSendSignal.py)
+  - [emfReceiveSignal.py](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfReceiveSignal.py)
 - **Live Data Visualization**: [driftwest.xyz](http://driftwest.xyz)
-- **Graph Images**: See [images folder](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/images) for plots and event visualizations.
+- **Graph Images**: See [images folder](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/images) for plots and event visualizations.
 
 ### Website Features:
 
 - **Event Marking**: Mark and annotate specific events directly through the website interface.
-  ![Event Marking](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/event_marking.png)
+  ![Event Marking](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/event_marking.png)
 - **Environmental Data Display**: Options to display temperature and humidity data alongside EMF sensor readings for comprehensive environmental analysis.
-  ![Environmental Data Display](https://github.com/<ziehro>/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/environmental_display.png)
+  ![Environmental Data Display](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/images/environmental_display.png)
 
