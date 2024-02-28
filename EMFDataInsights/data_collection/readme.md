@@ -21,7 +21,7 @@ Additionally, every 10 minutes, the Raspberry Pi uploads a data dump to Firestor
   - [emfSendSignal.py](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfSendSignal.py)
   - [emfReceiveSignal.py](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/EMFDataInsights/tree/master/scripts/emfReceiveSignal.py)
 - **Live Data Visualization**: [driftwest.xyz](http://driftwest.xyz/mycelium-graphs)
-- **Graph Images**: See [images folder](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/master/EMFDataInsights/data_collection/images) for plots and event visualizations.
+- **Graph Images**: See [images folder](https://github.com/ziehro/DataSciencePortfolio-Chris-Ziehr/tree/master/EMFDataInsights/data_collection/images) for plots and event visualizations.
 
 ### Website Features:
 
