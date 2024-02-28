@@ -22,7 +22,7 @@ Instructions for setting up the hardware and software environment are detailed i
 
 ## Usage
 
-Detailed instructions on how to run the scripts, collect data, and perform analysis are provided in the [Usage Guide](/usage.md). This includes:
+Detailed instructions on how to run the scripts, collect data, and perform analysis are provided in the [Usage Guide](/EMFDataInsights/data_collection/readme.md). This includes:
 
 - `sensor_readings.py`: Script to collect data from the Hall effect sensor.
 - `data_analysis.ipynb`: Jupyter notebook for initial data analysis, including FFT and gain control.
