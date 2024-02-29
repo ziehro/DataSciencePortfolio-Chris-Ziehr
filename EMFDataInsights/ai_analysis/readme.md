@@ -35,7 +35,8 @@ Two main Python scripts provide the core functionality:
   - Data Classification: [emf_data_classification.py](../data_collection/scripts/emf_data_classification.py)
   - Mycelium AI: [mycelium_ai.py](../data_collection/scripts/mycelium_ai.py)
 - **Images**:
-  - Example plots and pattern detections: ![Clusters Detected](../data_collection/images/ai_clusters.png)
+  - Example plots and pattern detections:
+  - ![Clusters Detected](../data_collection/images/ai_clusters.png)
 
 Ensure all dependencies, such as Scikit-learn, Pandas, NumPy, and SciPy, are installed before running these scripts.
 
