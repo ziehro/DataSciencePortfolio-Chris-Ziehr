@@ -1,4 +1,4 @@
-# EMFDataInsights: Understanding Plant Communications through EMF
+# EMF Data Insights: Understanding Plant Communications through EMF
 
 ## Project Overview
 
