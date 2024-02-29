@@ -16,15 +16,15 @@ The primary tool in this folder is a Python script utilizing Matplotlib to creat
 ## Usage
 
 1. Navigate to the script directory: `cd path_to_your_project/EMFDataInsights/data_analysis`
-2. Run the script: `python matplotlib_realtime.py`
+2. Run the script: `python emfReceiveSignal.py`
 3. Follow the on-screen instructions to record events and insert timestamps.
 
 ## Resources
 
 - **Scripts**:
-  - Real-time plotting: [matplotlib_realtime.py](../data_collection/scripts/emfReceiveSignal.py)
+  - Real-time plotting: [emfReceiveSignal.py](../data_collection/scripts/emfReceiveSignal.py)
 - **Images**:
-  - Example plots: [View here](./images/)
+  - Example plots: [View here](../data_collection/images/)
 
 Please ensure you have the necessary Python dependencies installed before running the scripts.
 
