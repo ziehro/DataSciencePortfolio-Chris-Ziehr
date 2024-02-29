@@ -18,7 +18,7 @@ Unsupervised learning is a type of machine learning that looks for previously un
 
 3. **Clustering with DBSCAN**: The extracted features are analyzed using DBSCAN (Density-Based Spatial Clustering of Applications with Noise), a popular unsupervised learning algorithm. DBSCAN groups together closely packed data points and marks outliers that lie alone in low-density regions. In the context of our project, this method helps identify clusters of similar EMF signals, which could potentially represent repetitive "words" or "phrases" used by the mycelium.
 
-   ![DBSCAN Clustering](./images/dbscan_clustering.png)
+   ![DBSCAN Clustering](./data_collection/images/ai_clusters.png)
 
 4. **Pattern Detection and Analysis**: Once clusters are identified, we analyze them to understand their characteristics and what they could signify. This involves looking at the conditions under which specific signals are produced and trying to correlate them with environmental factors or mycelial growth stages.
 
