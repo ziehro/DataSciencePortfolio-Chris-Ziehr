@@ -22,7 +22,7 @@ The primary tool in this folder is a Python script utilizing Matplotlib to creat
 ## Resources
 
 - **Scripts**:
-  - Real-time plotting: [matplotlib_realtime.py](../scripts/matplotlib_realtime.py)
+  - Real-time plotting: [matplotlib_realtime.py](../data_collection/scripts/emfReceiveSignal.py)
 - **Images**:
   - Example plots: [View here](./images/)
 
