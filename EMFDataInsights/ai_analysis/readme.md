@@ -32,7 +32,7 @@ Two main Python scripts provide the core functionality:
 ## Resources
 
 - **Scripts**:
-  - Data Classification: [emf_data_classification.py](../data_collection/scripts/emf_data_classification.py)
+  - Data Classification: [emf_data_classification.py](../data_collection/scripts/aiTrain.py)
   - Mycelium AI: [mycelium_ai.py](../data_collection/scripts/mycelium_ai.py)
 - **Images**:
   - Example plots and pattern detections:
