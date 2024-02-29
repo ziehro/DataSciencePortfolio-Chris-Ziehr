@@ -48,10 +48,6 @@ Instructions for replicating the experiment and contributing to the project are 
 
 A discussion of the project's outcomes, challenges faced, and how they were addressed. This section also outlines future research directions and potential improvements to the project.
 
-## Licensing
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 Special thanks to XXX for their contributions and support throughout this project.
