@@ -12,12 +12,8 @@ The purpose of this project is to explore the possibility that mycelium can prod
 ### Hardware Setup
 
 1. **Raspberry Pi Configuration**: Assemble the Raspberry Pi with the Hall effect sensor to detect EMF signals. Ensure proper connections with the ADC for accurate signal measurement.
-   
-   ![Raspberry Pi Setup](./images/raspberry_setup.png)
-
 2. **LED Strip Visualization**: Connect the LED strip to provide a real-time visual representation of the EMF intensity.
-
-   ![LED Visualization](./images/led_visualization.png)
+   ![Raspberry Pi Setup](./images/pi_sketch.jpg)
 
 ### Software Setup and Data Collection
 
@@ -25,21 +21,19 @@ The purpose of this project is to explore the possibility that mycelium can prod
 
 2. **Data Transmission**: Use `emfSendSignal.py` to send real-time data from the Raspberry Pi to a local machine.
 
-   ![Data Transmission](./images/data_transmission.png)
-
 3. **Real-Time Data Plotting**: Utilize `emfReceiveSignal.py` for live data visualization, mimicking an oscilloscope interface.
 
-   ![Real-Time Plot](./images/realtime_plot.png)
+   ![Real-Time Plot](../data_collection/images/EMF_readings_closeup.png)
 
 ### Data Analysis
 
 1. **EMF Data Classification**: Apply machine learning algorithms to classify and interpret the collected EMF data.
 
-   ![Data Classification](./images/data_classification.png)
+   ![Data Classification](../data_collection/images/sensor_fft.png)
 
 2. **Mycelium AI Analysis**: Use unsupervised learning to identify patterns in the data, potentially decoding the "words" spoken by mycelium.
 
-   ![AI Analysis](./images/ai_analysis.png)
+   ![AI Analysis](../data_collection/images/ai_clusters.png)
 
 ### Benefits and Future Directions
 
