@@ -25,7 +25,7 @@ The BeachBookMap project utilizes Folium to create interactive geo-maps that dis
 - Visualization of beaches based on selected environmental metrics.
 - Customizable views for different data analysis needs.
 
-To run the BeachBookMap application, execute the `BeachBookMap.py` Python script or view the heatmap [Here](https://www.driftwest.xyz/beachbook)
+To run the BeachBookMap application, execute the [BeachBookMap.py](./BeachBookMap.py)` Python script or view the heatmap [here](https://www.driftwest.xyz/beachbook)
 
 ## Installation
 
