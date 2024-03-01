@@ -14,7 +14,7 @@ The Coastal Hazard Assessment project is a Jupyter Notebook that provides detail
 - Scatter plots and regression analysis between different coastal metrics.
 - Conclusions and recommendations based on the data analysis.
 
-To view the notebook, open the `Coastal_Hazard_Assessment.ipynb` file.
+To view the notebook, open the [Coastal_Hazard_Assessment](./Coastal_Hazard_Assessment.ipynb) file.
 
 ### BeachBookMap - Interactive Geo Maps
 
