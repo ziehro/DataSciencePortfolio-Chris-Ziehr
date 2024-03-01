@@ -4,9 +4,9 @@ This project analyzes the relationship between the moon phases and lottery win p
 
 ## Files
 
-- `raw.csv`: This file contains the raw data used for the analysis. It includes dates, moon ages, money spent, money won, and calculated win percentages for each recorded day.
+- [raw.csv](./raw.csv): This file contains the raw data used for the analysis. It includes dates, moon ages, money spent, money won, and calculated win percentages for each recorded day.
 
-- `Interactive_Moon_Phase_Analysis.ipynb`: Jupyter notebook containing all the code and visualizations for the analysis. The notebook includes data preprocessing, feature engineering, and an interactive graph that displays the moon phase as a continuous sine wave, with overlaying data points representing the win percentages for corresponding days.
+- [Interactive_Moon_Phase_Analysis.ipynb](./Interactive_Moon_Phase_Analysis.ipynb)`: Jupyter notebook containing all the code and visualizations for the analysis. The notebook includes data preprocessing, feature engineering, and an interactive graph that displays the moon phase as a continuous sine wave, with overlaying data points representing the win percentages for corresponding days.
 
 ## How to Use
 
