@@ -30,7 +30,7 @@ Comprehensive usage instructions are provided in the [Usage Guide](/EMFDataInsig
 
 ## Data Visualization
 
-Explore data visualization techniques and access the live data visualization platform in the [Visualizations](/EMFDataInsights/visualizations/readme.md) folder. This includes real-time graphs and analysis of EMF data, showcasing the responsive patterns of the plant to various stimuli.
+Explore data visualization techniques and access the live data visualization platform in the [Visualizations](/EMFDataInsights/visualization/readme.md) folder. This includes real-time graphs and analysis of EMF data, showcasing the responsive patterns of the plant to various stimuli.
 
 ## Analysis and Results
 
