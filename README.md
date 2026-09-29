@@ -1,5 +1,9 @@
 # Chris Ziehr's Data Science Portfolio
 
+> [!IMPORTANT]
+> **This portfolio has moved.** The current, combined Computer Science + Data Science portfolio lives at **[ziehro.github.io](https://ziehro.github.io/#ds)** (mirror: [driftwest.xyz/portfolio](https://driftwest.xyz/portfolio/#ds)).
+> This repo is kept as an archive of earlier work.
+
 Welcome to my Data Science portfolio! This repository showcases a selection of projects I've worked on, demonstrating my skills in data analysis, visualization, and interpretation. Each project is contained within its own directory and includes a detailed README with an overview of the project, methodologies employed, key findings, and visualizations.  
 
 ## Projects Overview
